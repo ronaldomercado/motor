@@ -4,42 +4,7 @@ include $(TOP)/configure/CONFIG
 # Submodules
 #SUBMODULES += motorVendor
 SUBMODULES += motorOms
-SUBMODULES += motorNewport
-SUBMODULES += motorAMCI
-SUBMODULES += motorAcs
-SUBMODULES += motorAcsTech80
-SUBMODULES += motorAerotech
-SUBMODULES += motorAttocube
-SUBMODULES += motorDeltaTau
-SUBMODULES += motorFaulhaber
-ifdef IPAC
-SUBMODULES += motorHytec
-endif
-SUBMODULES += motorIms
-SUBMODULES += motorKohzu
-SUBMODULES += motorMclennan
-SUBMODULES += motorMicos
-SUBMODULES += motorMicroMo
-SUBMODULES += motorMicronix
-SUBMODULES += motorMotorSim
-ifdef MX
-SUBMODULES += motorMXmotor
-endif
-SUBMODULES += motorNewFocus
-SUBMODULES += motorNPoint
 SUBMODULES += motorOmsAsyn
-SUBMODULES += motorOriel
-SUBMODULES += motorParker
-SUBMODULES += motorPhytron
-SUBMODULES += motorPiJena
-SUBMODULES += motorPI
-SUBMODULES += motorPIGCS2
-ifdef LUA
-SUBMODULES += motorScriptMotor
-endif
-SUBMODULES += motorSmarAct
-SUBMODULES += motorSmartMotor
-SUBMODULES += motorThorLabs
 
 # Allow sites to add extra submodules
 -include Makefile.local
