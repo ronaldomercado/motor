@@ -1,0 +1,8 @@
+branch dls-rtems notes
+
+work to compile motor for dls systems
+using rtems
+target is the support of oms vme58 systems
+
+Teted using the motorOms sub-module
+
